@@ -26,8 +26,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'paperclip', '~> 3.5.4'
 # This is a gem for dropbox
 gem "paperclip-dropbox", ">= 1.1.7"
-
+# Figaro is used to protect the data within our website since we are using dropbox and paperclip
 gem 'figaro'
+# This gem is used for user authentication
+gem 'devise'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use ActiveModel has_secure_password
