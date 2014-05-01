@@ -24,6 +24,10 @@ gem 'jbuilder', '~> 2.0'
 # This gem is for images
 #gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'paperclip', '~> 3.5.4'
+# This is a gem for dropbox
+gem "paperclip-dropbox", ">= 1.1.7"
+
+gem 'figaro'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use ActiveModel has_secure_password
