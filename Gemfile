@@ -22,8 +22,8 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # This gem is for images
-#gem 'paperclip', github: 'thoughtbot/paperclip'
-gem 'paperclip', '~> 3.5.4'
+gem 'paperclip', github: 'thoughtbot/paperclip'
+#gem 'paperclip', '~> 3.5.4'
 # This is a gem for dropbox
 gem "paperclip-dropbox", ">= 1.1.7"
 # Figaro is used to protect the data within our website since we are using dropbox and paperclip
