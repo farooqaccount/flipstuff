@@ -31,7 +31,7 @@ gem 'figaro'
 # This gem is used for user authentication
 gem 'devise'
 
-gem 'activemerchant'
+#gem 'activemerchant'
 gem 'stripe'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
